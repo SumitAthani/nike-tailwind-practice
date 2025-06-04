@@ -28,7 +28,7 @@ const Nav = () => {
           <img src={hamburger} alt="" height={25} width={25} />
         </div>
         <div className="max-lg:hidden font-montserrat">
-          <a href="/">SignIn/Explore</a>
+          <a href="/#subscribe">SignIn/Explore</a>
         </div>
       </nav>
     </header>

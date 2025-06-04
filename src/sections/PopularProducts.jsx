@@ -14,10 +14,10 @@ const PopularProducts = () => {
           selections. Discover a world of comfort, design, and value
         </p>
       </div>
-      <div className="mt-16 grid gap-10 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1">
+      <div className="mt-16 grid gap-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1">
         {products.map((product) => {
           return (
-            <div className="flex flex-col gap-5">
+            <div className="flex flex-col gap-4 mt-2">
               <img src={product.imgURL} alt="" />
               <div className="flex items-center justify-start gap-2 mt-10">
                 <img src={star} alt="" className="w-6 h-6" />
