@@ -14,7 +14,7 @@ const Subscribe = () => {
         <input
           type="text"
           placeholder="subscribe@nike.com"
-          className="border-none flex-1 pl-4 outline-none m-1"
+          className="border-none flex-1 pl-4 outline-none m-1 max-sm:w-1"
         />
         <Button label={"Sign Up"} />
       </div>

@@ -54,7 +54,7 @@ const Hero = () => {
         <div className="flex sm:gap-6 gap-4 absolute -bottom-[5%] sm:left-[10%] max-sm:px-6">
           {shoes.map((shoe) => (
             <div
-              className={`border-2 bg-card w-40 h-40 flex justify-center items-center bg-cover rounded-lg ${
+              className={`border-2 bg-card max-sm:w-24 max-sm:max-h-24 w-40 h-40 flex justify-center items-center bg-cover rounded-lg ${
                 shoe.bigShoe === bigShoeImg
                   ? "border-coral-red"
                   : "border-transparent"
